@@ -3,4 +3,4 @@
     become: true
     tasks:
     - name: create docker container
-       shell: docker run -d --name vsure_demo -p 8090:8080 vsuredocker/vsure_demo
+      shell: docker run -d --name vsure_demo -p 8090:8080 vsuredocker/vsure_demo
